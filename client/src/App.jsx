@@ -13,8 +13,8 @@ function App() {
 
   return (
     <div>
-      <h1>DNS Working 🚀</h1>
-      <h1>Finally</h1>
+      <h1>Mr. Harish Dokiya 🚀</h1>
+      {/* <h1>Finally</h1> */}
       <p>{message}</p>
     </div>
   );
