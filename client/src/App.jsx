@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("/api/message")
+      .get("/localhost:500/message")
       .then((res) => setMessage(res.data.message))
       .catch((err) => console.log(err));
   }, []);
