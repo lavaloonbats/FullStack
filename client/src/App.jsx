@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>CI/CD Working 🚀</h1>
+      <h1>DNS Working 🚀</h1>
       <p>{message}</p>
     </div>
   );
