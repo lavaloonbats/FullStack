@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/message")
+      .get("https://fullstack-17vl.onrender.com/api/message")
       .then((res) => setMessage(res.data.message))
       .catch((err) => console.log(err));
   }, []);
